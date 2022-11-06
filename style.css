@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.navbar-toggler-icon{
+    font-size: 1.3rem;
+}
+
+@media(max-width: 550px) {
+    .banner-container{
+        margin-top: -150px;
+        height: 80vh;
+    }
+}
+
+.banner-container{
+    background: #CACACA;
+    /* background-image: url(img/bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.banner-colum{
+    background: #918080fa;
+}
+
+.navbar-container{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+    background: #262b37; 
+}
+
+
+.about-container{
+    background: #00bdbd;
+}
+
+.text-bold{
+    font-weight: 700;
+}
+
+.text-size{
+    font-size: 24px;
+}
+
+.bg-redtype{
+    background: #d92d2d;
+}
+
+.bg-redtype:hover{
+    color: black!important;
+}
+
+.redtype-color{
+    color:#e74c3c
+}
+
+.gallbg{
+    background-color: #ecf0f1;
+}
+
+.circle{
+    background-color:#e74c3c;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+}
+
+.project-container{
+    background: #2bb3dd;
+}
+
+.form-container{
+    background: #474d5d;
+
+}
+
+span{
+    font-size: 72px;
+}
+
+.inner-form{
+    background-color: #585f73;
+}
+
+.btn{
+    border-radius: 6%;
+    margin-bottom: 2rem;
+
+}
+
+
+
+
+.footer{
+    background-color: #2bb3dd;
+}
+

@@ -1,0 +1,14 @@
+@media(max-width: 550px) {
+    .banner-container{
+        margin-top: -150px;
+        height: 80vh;
+    }
+    .fahim-Image{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .container h2{
+        font-weight: bolder;
+    }
+}
